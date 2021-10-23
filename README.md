@@ -1,2 +1,3 @@
 # PicoRuby Macropad
 
+![](prmp.jpeg)
