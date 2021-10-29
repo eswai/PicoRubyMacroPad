@@ -1,8 +1,3 @@
-# Wait until Keyboard class is ready
-while !$mutex
-  relinquish
-end
-
 # Initialize a Keyboard
 kbd = Keyboard.new
 
@@ -31,8 +26,8 @@ rgb = RGB.new(
   false # 32bit data will be sent to a pixel if true while 24bit if false
 )
 # Set an effect
-#  `nil` or `:off` for turning off, `:breathing` for "color breathing", `:rainbow` for "rainbow snaking"
-rgb.effect = :breathing
+#  `nil` or `:off` for turning off
+rgb.effect = :rainbow_mood
 # Set an action when you input
 #  `nil` or `:off` for turning off
 # rgb.action = :thunder
