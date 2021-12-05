@@ -437,7 +437,7 @@ F 3 "~" H 4850 3350 50  0001 C CNN
 $EndComp
 Text GLabel 4375 2725 0    50   Input ~ 0
 R2
-Text GLabel 4375 3150 0    50   Input ~ 0
+Text GLabel 4375 3450 0    50   Input ~ 0
 R3
 Wire Wire Line
 	5050 1650 5050 2425
@@ -540,5 +540,16 @@ NoConn ~ 2125 3450
 NoConn ~ 2025 3450
 NoConn ~ 2825 1450
 Wire Wire Line
-	4375 3150 4650 3150
+	4375 3450 4650 3450
+$Comp
+L Device:D D11
+U 1 1 61AC63BF
+P 4650 3300
+F 0 "D11" V 4696 3220 50  0000 R CNN
+F 1 "D" V 4605 3220 50  0000 R CNN
+F 2 "kbd:D3_TH_SMD_v2" H 4650 3300 50  0001 C CNN
+F 3 "~" H 4650 3300 50  0001 C CNN
+	1    4650 3300
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
