@@ -11,7 +11,7 @@
 | PCB | PicoRubyMacroPad_PCB | 1|
 | Bottom plate | PicoRubyMacroPad_Plate | 1|
 | MX-compaible key switch | 5pins | 11|
-| Diode | 1N4148 TH or SMD  | 10|
+| Diode | 1N4148 TH or SMD  | 11|
 | Stand-off | M2 L5.5mm or longer | 4|
 | Screw | M2 L4mm | 8|
 | Keycap | 1U | 10|
